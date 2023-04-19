@@ -1,4 +1,4 @@
-/* ---- ESTILOS GENERALES ---- */
+/ ---- ESTILOS GENERALES ---- /
 
 * body {
     background-image: url('Fondo.jpg');
@@ -37,7 +37,7 @@
 }
 
 
-/* ---- FORMULARIO ---- */
+/ ---- REGISTRO DE CLIENTES ---- /
 
 .form {
     /* border: 3px solid green; */
