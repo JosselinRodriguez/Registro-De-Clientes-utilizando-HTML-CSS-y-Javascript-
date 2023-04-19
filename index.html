@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registro De Datos Del Cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="form" id="form" autocomplete="off">
+            <p class="form-titulo">Regístro Del Cliente</p>
+
+            <div class="form-input myname">
+                <input type="text" id="myname">
+                <label for="myname">Nombres</label>
+                <p class="mensajeError"></p>
+            </div>
+
+            <div class="form-input surname">
+                <input type="text" id="surname">
+                <label for="surname">Apellidos</label>
+                <p class="mensajeError"></p>
+            </div>
+
+            <div class="form-input identification">
+                <input type="text" id="identification">
+                <label for="identification">Cedula</label>
+                <p class="mensajeError"></p>
+            </div>
+
+            <div class="form-input civilstatus">
+                <input type="text" id="civilstatus">
+                <label for="civilstatus">Estado Civil</label>
+                <p class="mensajeError"></p>
+            </div>
+
+            <div class="form-input email">
+                <input type="email" id="email">
+                <label for="email">Correo electrónico</label>
+                <p class="mensajeError"></p>
+            </div>
+
+            <div class="form-input mobile">
+                <input type="text" id="mobile">
+                <label for="mobile">Celular</label>
+                <p class="mensajeError"></p>
+            </div>
+
+            <div class="form-input password">
+                <input type="password" id="password">
+                <label for="password">Contraseña</label>
+                <p class="mensajeError"></p>
+            </div>
+
+            <div class="form-input repeatPassword">
+                <input type="password" id="repeatPassword">
+                <label for="repeatPassword">Repetir Contraseña</label>
+                <p class="mensajeError"></p>
+            </div>
+
+            <div class="form-termsAndConditions termsAndConditions">
+                <input type="checkbox" id="termsAndConditions">
+                <label for="termsAndConditions">He leído y acepto los </label>
+                <a href="#">Términos y Condiciones</a>
+                <p class="mensajeError"></p>
+            </div>
+
+            <center>
+                <p><a href="#">¿Ya tengo Cuenta?</a></p>
+            </center>
+
+
+            <div class="form-boton">
+                <input type="submit" value="Registrar">
+            </div>
+
+            <p class="mensajeCorrecto"></p>
+        </form>
+    </div>
+    <script src="Java.js"></script>
+</body>
+
+</html>
